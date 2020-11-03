@@ -7,7 +7,7 @@
 # else block should ensure to display message if other conditions do not match
 
 
-age = 21
+age = int(input("How old are you? "))
 
 if age >= 18:
     print("You can watch any film")
